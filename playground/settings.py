@@ -83,7 +83,7 @@ WSGI_APPLICATION = 'playground.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.mysql',
+       'ENGINE': 'django.db.backends.mysql',
         'HOST': 'localhost',
         'NAME': 'store',
         'USER': 'root',
