@@ -1,9 +1,9 @@
-from store.serializers.collection import CollectionSerializer
+from store.serializers.collection_serializers import CollectionSerializer
 from .models import Collection
 from django.db.models import Count
 from rest_framework.views import APIView
 from rest_framework.response import Response
-from rest_framework.status import status
+from rest_framework import status
 
 class ProductViews(APIView):
 

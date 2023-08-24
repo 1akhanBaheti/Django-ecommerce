@@ -11,6 +11,7 @@ djangorestframework = "*"
 drf-nested-routers = "*"
 django-tidb = "*"
 psycopg2 = "*"
+djangorestframework-simplejwt = "*"
 
 [dev-packages]
 
